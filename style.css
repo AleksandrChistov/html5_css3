@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  line-height: 24px;
   color: #333333;
 }
 
@@ -66,13 +67,8 @@ body {
 
 .about-product__title {
   font-size: 30px;
-  line-height: 24px;
   margin-bottom: 28px;
   color: #445161;
-}
-
-.about-product__description {
-  line-height: 24px;
 }
 
 .about-product__description:nth-child(2n+1) {
@@ -82,4 +78,41 @@ body {
 .about-product__video {
   width: 430px;
   height: 245px;
+  display: block;
+}
+
+.pluses-product {
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.pluses-product__title {
+  font-size: 30px;
+  margin-bottom: 28px;
+  text-align: center;
+  color: #445161;
+}
+
+.pluses-product-list {
+  margin-bottom: -30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pluses-product-list__item {
+  flex-basis: 50%;
+  margin-bottom: 27px;
+  display: flex;
+}
+
+.pluses-product-list__item:before {
+  content: '';
+  min-width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background: url('img/plus_icon.png') center no-repeat #445161;
+  display: block;
 }

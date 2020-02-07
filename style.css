@@ -120,3 +120,48 @@ body {
   background: url('img/plus_icon.png') center no-repeat #445161;
   display: block;
 }
+
+.scrinshots {
+  padding: 50px;
+}
+
+.scrinshots__title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #445161;
+}
+
+.scrinshots-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.scrinshots-item-wrap {
+  max-width: 50%;
+  margin-top: 22px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.scrinshots-image-wrap {
+  max-width: 240px;
+  margin-right: 15px;
+}
+
+.scrinshots__img {
+  width: 100%;
+  max-width: 200px;
+  height: 150px;
+}
+
+.scrinshots-text-wrap {
+  max-width: 360px;
+}
+
+.scrinshots__h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #445161;
+}

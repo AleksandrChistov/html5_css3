@@ -52,6 +52,15 @@ body {
   width: 100%;
   max-width: 469px;
   height: 214px;
+  position: relative;
+  animation: slideImg 2.5s ease 1;
+}
+
+@keyframes slideImg {
+  0% { top: -1000px; }
+  25% { top: 30px }
+  50% { top: -30px }
+  100% { top: 0 }
 }
 
 .about-product {
